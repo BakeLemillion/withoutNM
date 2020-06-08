@@ -1,0 +1,117 @@
+.authoriz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 33, 55);
+    background-image: url('./img/authoriz.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.authorize_form {
+    width: 340px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+    -webkit-box-shadow: -8px 39px 69px -36px rgba(0,0,0,0.55);
+    -moz-box-shadow: -8px 39px 69px -36px rgba(0,0,0,0.55);
+    box-shadow: -8px 39px 69px -36px rgba(0,0,0,0.55);
+}
+
+.autho-h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+.autho_input-row-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.autho_input-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.autho_input-col-p {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: rgb(30, 47, 74);
+    opacity: 0.6;
+}
+
+.autho_input-col-img {
+    width: 18px;
+    height: 22px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.autho_input-col-inp {
+    width: 220px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    padding-left: 15px;
+    border-radius: 10px;
+    background-color: rgb(248, 248, 248);
+    outline: none;
+}
+
+.autho_btn {
+    width: 220px;
+    padding: 7px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(19, 178, 185);
+    border-radius: 16px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.autho_btn:hover {
+    transition: 0.4s;
+    opacity: 0.8;
+}
+
+.autho_forgot {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: rgb(76, 89, 186);
+}

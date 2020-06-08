@@ -1,0 +1,24 @@
+.main_page-cont {
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 20px;
+    margin-top: 60px;
+    
+}
+
+.link-a {
+    text-decoration: none;
+}
+
+.hr-topBar {
+    background-color: rgb(255, 255, 255);
+}
+
+.toopbar-hand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
